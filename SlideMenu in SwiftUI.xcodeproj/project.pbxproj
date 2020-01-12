@@ -13,6 +13,7 @@
 		2A3664D123CB60210008EE09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3664D023CB60210008EE09 /* Assets.xcassets */; };
 		2A3664D423CB60210008EE09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A3664D323CB60210008EE09 /* Preview Assets.xcassets */; };
 		2A3664D723CB60210008EE09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A3664D523CB60210008EE09 /* LaunchScreen.storyboard */; };
+		2A3664DF23CB63B30008EE09 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A3664DE23CB63B30008EE09 /* SlideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2A3664D323CB60210008EE09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2A3664D623CB60210008EE09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A3664D823CB60210008EE09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A3664DE23CB63B30008EE09 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				2A3664CA23CB601C0008EE09 /* AppDelegate.swift */,
 				2A3664CC23CB601C0008EE09 /* SceneDelegate.swift */,
 				2A3664CE23CB601C0008EE09 /* ContentView.swift */,
+				2A3664DE23CB63B30008EE09 /* SlideView.swift */,
 				2A3664D023CB60210008EE09 /* Assets.xcassets */,
 				2A3664D523CB60210008EE09 /* LaunchScreen.storyboard */,
 				2A3664D823CB60210008EE09 /* Info.plist */,
@@ -148,6 +151,7 @@
 			files = (
 				2A3664CB23CB601C0008EE09 /* AppDelegate.swift in Sources */,
 				2A3664CD23CB601C0008EE09 /* SceneDelegate.swift in Sources */,
+				2A3664DF23CB63B30008EE09 /* SlideView.swift in Sources */,
 				2A3664CF23CB601C0008EE09 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
