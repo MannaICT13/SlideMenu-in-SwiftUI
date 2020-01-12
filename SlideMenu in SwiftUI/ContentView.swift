@@ -9,9 +9,36 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello World")
+        
+        NavigationView{
+            
+        ZStack{
+            
+         Text("Hello")
+         
+               
+        }
+        .navigationBarItems(leading:
+            
+            Button(action: {
+                
+                //do something
+                
+            }, label: {
+                
+                Image(systemName: "line.horizontal.3")
+                    .imageScale(.large)
+                
+                
+            })
+            
+            
+            )
+        
     }
+}
 }
 
 struct ContentView_Previews: PreviewProvider {
