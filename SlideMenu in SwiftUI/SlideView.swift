@@ -79,9 +79,9 @@ struct SlideView : View{
              Spacer()
             
         }.frame(maxWidth: .infinity,alignment: .leading)
-            .padding(.top ,100)
+            .padding(.top ,60)
             .background(Color.black)
-            .edgesIgnoringSafeArea(.all)
+            .edgesIgnoringSafeArea(.bottom)
        
        
         

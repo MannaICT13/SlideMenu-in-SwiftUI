@@ -10,22 +10,41 @@ import SwiftUI
 
 struct ContentView: View {
     
+    
+    @State var showSlide : Bool = false
+    
     var body: some View {
         
         NavigationView{
             
         ZStack{
+            GeometryReader{ geo in
             
-         Text("Hello")
+                if self.showSlide{
+                    
+                SlideView()
+                    .frame(width : geo.size.width/2.0)
+                    .animation(.default)
+                    .transition(.move(edge: .leading))
+                
+            }
+            
+            }
          
                
         }
+        .navigationBarTitle(Text("Slide Menu"),displayMode: .inline)
         .navigationBarItems(leading:
             
             Button(action: {
                 
-                //do something
+                withAnimation {
+                    
+                     self.showSlide.toggle()
+                    
+                }
                 
+               
             }, label: {
                 
                 Image(systemName: "line.horizontal.3")
