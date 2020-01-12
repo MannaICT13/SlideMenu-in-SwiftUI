@@ -15,7 +15,18 @@ struct ContentView: View {
     
     var body: some View {
         
-        NavigationView{
+        let gesture = DragGesture()
+            .onEnded {
+                if $0.translation.width < -100{
+                    withAnimation{
+                        self.showSlide = false
+                    }
+                }
+        }
+        
+        
+        
+       return  NavigationView{
             
         ZStack{
             GeometryReader{ geo in
@@ -31,7 +42,7 @@ struct ContentView: View {
             
             }
          
-               
+        .gesture(gesture)
         }
         .navigationBarTitle(Text("Slide Menu"),displayMode: .inline)
         .navigationBarItems(leading:
